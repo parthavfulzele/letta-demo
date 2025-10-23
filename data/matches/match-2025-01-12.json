@@ -1,0 +1,90 @@
+{
+  "teamId": "phoenix-rivals",
+  "matchId": "2025-01-12",
+  "metadata": {
+    "opponent": "Coastal Kings",
+    "date": "2025-01-12",
+    "location": "Sunset Arena",
+    "competition": "Premier League - Regular Season",
+    "result": "win",
+    "score": {
+      "team": 88,
+      "opponent": 81
+    },
+    "narrative": "Phoenix Rivals edged out the Coastal Kings with a late defensive press that forced turnovers in the final three minutes."
+  },
+  "playerBios": [
+    {
+      "playerId": "p-jordan-ellis",
+      "name": "Jordan Ellis",
+      "position": "Point Guard",
+      "experience": "7th season",
+      "playingStyle": "Floor general with high pick-and-roll volume and midrange pull-ups.",
+      "seasonNotes": "Focused on tempo control and limiting turnovers after offseason core-strength program."
+    },
+    {
+      "playerId": "p-maya-santos",
+      "name": "Maya Santos",
+      "position": "Shooting Guard",
+      "experience": "4th season",
+      "playingStyle": "Off-ball movement shooter with 41% from deep this month.",
+      "seasonNotes": "Emphasis on catch-and-shoot triples from weak-side flare actions."
+    },
+    {
+      "playerId": "p-isaac-long",
+      "name": "Isaac Long",
+      "position": "Center",
+      "experience": "6th season",
+      "playingStyle": "Rim protector who anchors the drop coverage. Efficient in short-roll playmaking.",
+      "seasonNotes": "Working on switching angles to contain quick guards."
+    }
+  ],
+  "coachStrategies": [
+    {
+      "coachId": "c-arjun-patel",
+      "name": "Arjun Patel",
+      "role": "Head Coach",
+      "gamePlan": "Control pace with early drag screens, punish Kings' weak side rotations with hammer sets.",
+      "adjustments": [
+        "Increased weak-side stunts at Kings' stretch four after early hot shooting.",
+        "Extended defensive pressure to three-quarter court after timeout at 6:14 Q4."
+      ]
+    },
+    {
+      "coachId": "c-lena-cho",
+      "name": "Lena Cho",
+      "role": "Defensive Coordinator",
+      "gamePlan": "Blend drop coverage with selective switches to disrupt dribble handoffs.",
+      "adjustments": [
+        "Called for nail help tags on Kings' guard attacks in the 3rd quarter.",
+        "Deployed matchup zone for two possessions to protect Santos from foul trouble."
+      ]
+    }
+  ],
+  "events": [
+    {
+      "clock": "Q4 03:12",
+      "description": "Ellis forced turnover, led to Santos transition three giving Rivals a 4-point lead.",
+      "impact": "Momentum swing; triggered 9-2 closing run."
+    },
+    {
+      "clock": "Q4 01:45",
+      "description": "Long contested back-to-back shots, kept Kings scoreless during decisive stretch.",
+      "impact": "Preserved two-possession advantage."
+    },
+    {
+      "clock": "Q3 06:27",
+      "description": "Bench unit conceded 7-0 run prompting timeout and rotation shift.",
+      "impact": "Highlighted depth concerns; future rotation tweak needed."
+    }
+  ],
+  "metrics": {
+    "pace": 97.8,
+    "offensiveRating": 112.4,
+    "defensiveRating": 103.9,
+    "turnoverRate": 0.109,
+    "effectiveFieldGoalPercentage": 0.542,
+    "reboundMargin": "+6",
+    "notes": "Turnover rate under 11% for third straight game; half-court sets produced 1.08 PPP."
+  }
+}

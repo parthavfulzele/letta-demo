@@ -1,0 +1,90 @@
+{
+  "teamId": "phoenix-rivals",
+  "matchId": "2025-01-24",
+  "metadata": {
+    "opponent": "Summit Pilots",
+    "date": "2025-01-24",
+    "location": "Summit Pavilion",
+    "competition": "Premier League - Regular Season",
+    "result": "win",
+    "score": {
+      "team": 104,
+      "opponent": 96
+    },
+    "narrative": "Phoenix answered after the Sentinels loss with improved rebounding discipline and crisp off-ball motion to free shooters."
+  },
+  "playerBios": [
+    {
+      "playerId": "p-maya-santos",
+      "name": "Maya Santos",
+      "position": "Shooting Guard",
+      "experience": "4th season",
+      "playingStyle": "Movement shooter with improved on-ball counters.",
+      "seasonNotes": "Added relocation threes from corner-to-wing cuts; stamina trending upwards."
+    },
+    {
+      "playerId": "p-nia-hart",
+      "name": "Nia Hart",
+      "position": "Small Forward",
+      "experience": "5th season",
+      "playingStyle": "Switchable wing; strong at initiating dribble handoffs.",
+      "seasonNotes": "Focus on weak-side screening angles to spring Santos."
+    },
+    {
+      "playerId": "p-isaac-long",
+      "name": "Isaac Long",
+      "position": "Center",
+      "experience": "6th season",
+      "playingStyle": "Rim deterrence plus improved short-roll passing.",
+      "seasonNotes": "Implemented quick seal technique after film review of Sentinels game."
+    }
+  ],
+  "coachStrategies": [
+    {
+      "coachId": "c-arjun-patel",
+      "name": "Arjun Patel",
+      "role": "Head Coach",
+      "gamePlan": "Push Pilots into rotations via double-stagger sets and Spain pick-and-roll.",
+      "adjustments": [
+        "Early timeout to demand deeper corner spacing; Santos responded with 5 threes.",
+        "Closed with Hart at the four for switching versatility and rebounding."
+      ]
+    },
+    {
+      "coachId": "c-lena-cho",
+      "name": "Lena Cho",
+      "role": "Defensive Coordinator",
+      "gamePlan": "Aggressive nail help to bottle Pilot guards while trusting Long to clean glass.",
+      "adjustments": [
+        "Mixed in surprise blitzes on Pilots' lead guard to speed decisions.",
+        "Implemented tag-and-release plan on Pilots' dunker spot cuts."
+      ]
+    }
+  ],
+  "events": [
+    {
+      "clock": "Q1 09:12",
+      "description": "Santos hit consecutive threes off stagger screens, forcing early timeout.",
+      "impact": "Set offensive tone; Pilots chased shooters rest of night."
+    },
+    {
+      "clock": "Q3 05:20",
+      "description": "Hart and Long combined for contested rebound leading to transition dunk.",
+      "impact": "Key indicator of improved gang rebounding emphasis."
+    },
+    {
+      "clock": "Q4 02:04",
+      "description": "Patel called Spain pick-and-roll; Santos found Long for lob to seal game.",
+      "impact": "Validated adjustments to leverage short-rolls after Sentinels loss."
+    }
+  ],
+  "metrics": {
+    "pace": 99.4,
+    "offensiveRating": 118.7,
+    "defensiveRating": 105.1,
+    "turnoverRate": 0.094,
+    "effectiveFieldGoalPercentage": 0.571,
+    "reboundMargin": "+11",
+    "notes": "Allowed only 8 offensive rebounds; recorded 32 assists on 41 made shots."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "teamId": "phoenix-rivals",
+  "matchId": "2025-01-18",
+  "metadata": {
+    "opponent": "Harbor Sentinels",
+    "date": "2025-01-18",
+    "location": "Harbor Dome",
+    "competition": "Premier League - Regular Season",
+    "result": "loss",
+    "score": {
+      "team": 92,
+      "opponent": 97
+    },
+    "narrative": "Sentinels punished the Rivals on second-chance points; late-game offensive stagnation cost Phoenix a chance to close."
+  },
+  "playerBios": [
+    {
+      "playerId": "p-jordan-ellis",
+      "name": "Jordan Ellis",
+      "position": "Point Guard",
+      "experience": "7th season",
+      "playingStyle": "Tempo guard; primary initiator of horns-based actions.",
+      "seasonNotes": "Monitoring workload after minor ankle sprain; minute restriction lifted last week."
+    },
+    {
+      "playerId": "p-nia-hart",
+      "name": "Nia Hart",
+      "position": "Small Forward",
+      "experience": "5th season",
+      "playingStyle": "Versatile wing defender, secondary creator on empty-corner sets.",
+      "seasonNotes": "Increasing usage as on-ball screener to create mismatches."
+    },
+    {
+      "playerId": "p-isaac-long",
+      "name": "Isaac Long",
+      "position": "Center",
+      "experience": "6th season",
+      "playingStyle": "Physical rebounder; drop coverage anchor.",
+      "seasonNotes": "Working on quicker second jumps for contested boards."
+    }
+  ],
+  "coachStrategies": [
+    {
+      "coachId": "c-arjun-patel",
+      "name": "Arjun Patel",
+      "role": "Head Coach",
+      "gamePlan": "Exploit Sentinels' slow-footed guards via spread pick-and-roll.",
+      "adjustments": [
+        "Shifted to double drag screens to free Hart downhill in Q2.",
+        "Closed with small-ball lineup to chase perimeter shooting."
+      ]
+    },
+    {
+      "coachId": "c-lena-cho",
+      "name": "Lena Cho",
+      "role": "Defensive Coordinator",
+      "gamePlan": "Limit offensive rebounds with gang-rebounding emphasis.",
+      "adjustments": [
+        "Implemented wedge box-outs after halftime to counter Sentinels' crash scheme.",
+        "Late switch to top-locking shooters; left paint exposed for putbacks."
+      ]
+    }
+  ],
+  "events": [
+    {
+      "clock": "Q3 08:44",
+      "description": "Hart scored 8 straight, brought Rivals within 1 before bench unit faltered.",
+      "impact": "Demonstrated effective small-ball spacing; lineup data to revisit."
+    },
+    {
+      "clock": "Q4 02:10",
+      "description": "Sentinels secured offensive rebound and hit dagger three.",
+      "impact": "Illustrated rebounding deficit; need for situational boxing-out drills."
+    },
+    {
+      "clock": "Q2 05:36",
+      "description": "Ellis tweaked ankle; limited burst rest of game.",
+      "impact": "Reduced rim pressure; forced reliance on contested jumpers."
+    }
+  ],
+  "metrics": {
+    "pace": 101.2,
+    "offensiveRating": 108.1,
+    "defensiveRating": 113.6,
+    "turnoverRate": 0.132,
+    "effectiveFieldGoalPercentage": 0.497,
+    "reboundMargin": "-9",
+    "notes": "Allowed 17 offensive rebounds; half-court offense dropped to 0.94 PPP in Q4."
+  }
+}

@@ -31,15 +31,22 @@ export async function POST(req: NextRequest) {
       messages: [{ role: "user", content: message || "Say hello!" }],
     });
 
-    const last = [...turn.messages].reverse()
-      .find(m => (m as any).messageType === "assistant_message");
-    const text = (last && typeof (last as any).content === "string")
-      ? (last as any).content
+    type AgentMessage = {
+      messageType?: string;
+      content?: unknown;
+    };
+
+    const messages = turn.messages as AgentMessage[];
+    const last = [...messages].reverse()
+      .find((m) => m.messageType === "assistant_message");
+    const text = (last && typeof last.content === "string")
+      ? last.content
       : "No reply.";
 
     return NextResponse.json({ agentId: agent.id, reply: text });
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error(err);
-    return NextResponse.json({ error: err?.message ?? "Unknown error" }, { status: 500 });
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
